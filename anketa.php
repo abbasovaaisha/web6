@@ -90,7 +90,7 @@
 
     <?php if ($credentialsMessage): ?>
         <div class="credentials-box">
-            🔐 <strong>Ваши учётные данные для редактирования:</strong><br>
+             <strong>Ваши учётные данные для редактирования:</strong><br>
             <?= $credentialsMessage ?>
         </div>
     <?php endif; ?>
@@ -209,7 +209,7 @@
     </form>
 
     <div class="nav-links">
-        <a href="view.php">📋 Просмотр сохранённых анкет</a>
+        <a href="prosmotr.php">📋 Просмотр сохранённых анкет</a>
         <a href="admin.php" style="background-color:#e67e22;">🔐 Админ-панель</a>
     </div>
 </div>

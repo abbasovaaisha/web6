@@ -97,7 +97,7 @@ function truncateBio($bio, $length = 100) {
 </head>
 <body>
 <div class="container">
-    <h1>👑 Админ-панель</h1>
+    <h1> Админ-панель</h1>
     <?php if (isset($_GET['msg']) && $_GET['msg'] === 'deleted'): ?>
         <div class="msg">✅ Анкета успешно удалена.</div>
     <?php elseif (isset($_GET['msg']) && $_GET['msg'] === 'updated'): ?>
@@ -113,7 +113,7 @@ function truncateBio($bio, $length = 100) {
         </ul>
     </div>
 
-    <h2>📋 Все анкеты (<?= count($applications) ?>)</h2>
+    <h2> Все анкеты (<?= count($applications) ?>)</h2>
     <?php if (empty($applications)): ?>
         <p>Нет ни одной анкеты.</p>
     <?php else: ?>
