@@ -106,7 +106,7 @@
     <?php if ($isAuthenticated): ?>
         <div class="auth-panel">
             <span>👋 Вы вошли как <strong><?= htmlspecialchars($_SESSION['login']) ?></strong></span>
-            <a href="?logout=1" class="logout-btn">🚪 Выйти</a>
+            <a href="?logout=1" class="logout-btn"> Выйти</a>
         </div>
     <?php else: ?>
         <div class="auth-panel">
@@ -210,7 +210,7 @@
 
     <div class="nav-links">
         <a href="prosmotr.php">📋 Просмотр сохранённых анкет</a>
-        <a href="admin.php" style="background-color:#e67e22;">🔐 Админ-панель</a>
+        <a href="admin.php" style="background-color:#e67e22;"> Админ-панель</a>
     </div>
 </div>
 </body>
